@@ -1,11 +1,11 @@
 require 'logger'
-log = Logger.new('log.txt')
+log = Logger.new('/tmp/fan_control.log')
 
 MAX_FAN = 100
 MIN_FAN = 40
 
-FAN_INCREASE_TEMP = 50
-FAN_DECREASE_TEMP = 49
+FAN_INCREASE_TEMP = 60
+FAN_DECREASE_TEMP = 50
 
 FAN_STEP = 10
 
