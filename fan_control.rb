@@ -37,7 +37,7 @@ def at_max_lvl?(lvl)
 end
 
 def at_min_lvl?(lvl)
-  lvl = MIN_FAN
+  lvl == MIN_FAN
 end
 
 gpus = []
